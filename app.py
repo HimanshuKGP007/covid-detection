@@ -1,17 +1,16 @@
-import numpy as np
-import streamlit as st
-# import tensorflow as tf
-# import tf_agents
+import os
+from datetime import datetime
+
 import cv2
 import librosa
 import librosa.display
-from tensorflow.keras.models import load_model
-import os
-from datetime import datetime
-# import time
-import streamlit.components.v1 as components
 import matplotlib.pyplot as plt
+import numpy as np
+import streamlit as st
+import streamlit.components.v1 as components
 from PIL import Image
+from tensorflow.keras.models import load_model
+
 from melspec import plot_colored_polar, plot_melspec
 
 # load models
@@ -490,8 +489,9 @@ def main():
                 st.image(thankimg)
 
     else:
-        import requests
         import json
+
+        import requests
 
         url = 'http://api.quotable.io/random'
         if st.button("get random mood"):

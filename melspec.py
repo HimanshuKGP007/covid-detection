@@ -1,11 +1,11 @@
-import numpy as np
+from datetime import datetime
+
 import cv2
 import librosa
 import librosa.display
-from tensorflow.keras.models import load_model
-import os
-from datetime import datetime
 import matplotlib.pyplot as plt
+import numpy as np
+from tensorflow.keras.models import load_model
 
 # constants
 starttime = datetime.now()

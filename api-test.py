@@ -1,16 +1,17 @@
-import time
 import os
-import numpy as np
-import matplotlib.pyplot as plt
-import streamlit as st
-import pandas as pd
-import plotly.express as px
+import time
+from datetime import datetime
+
 import cv2
 import librosa
 import librosa.display
-from datetime import datetime
-from tensorflow.keras.models import load_model
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import streamlit as st
 from PIL import Image
+from tensorflow.keras.models import load_model
 
 # load models
 model = load_model("model3.h5")
