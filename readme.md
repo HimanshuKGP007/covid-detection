@@ -12,3 +12,4 @@ https://discuss.streamlit.io/t/oserror-sndfile-library-not-found/12473
 https://github.com/whitphx/streamlit-webrtc-example 
  - https://github.com/whitphx/streamlit-webrtc-example/issues/58 
  - https://github.com/whitphx/streamlit-webrtc/issues/357 
+ - https://github.com/whitphx/streamlit-webrtc/issues/170 
