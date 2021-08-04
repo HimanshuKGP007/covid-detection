@@ -30,7 +30,7 @@ model_load_state.text("Loaded models!")
 
 st.header("Record your voice")
 
-filename = st.text_input("Choose a filename: ")
+filename = st.text_input("Choose your username: ")
 
 if st.button(f"Click to Record"):
     if filename == "":
