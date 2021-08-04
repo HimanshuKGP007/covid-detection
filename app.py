@@ -24,7 +24,7 @@ import pickle
 "# COVID-19 Detection using cough recordings"
 model_load_state = st.text("Loading models...")
 
-loaded_model = pickle.load(open(r'model\finalized_model.sav', 'rb'))
+loaded_model = pickle.load(open(r'https://github.com/HimanshuKGP007/speech-emotion-webapp/blob/master/model/finalized_model.sav', 'rb'))
 
 model_load_state.text("Loaded models!")
 
