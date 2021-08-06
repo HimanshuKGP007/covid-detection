@@ -10,7 +10,7 @@ from pathlib import Path
 import os
 import librosa
 import glob
-from helper import draw_embed, create_spectrogram, read_audio, record, save_record, preprocess, get_dataframe, scaler_transform
+from helper import create_spectrogram, read_audio, record, save_record, preprocess, get_dataframe, scaler_transform
 import pickle
 
 
